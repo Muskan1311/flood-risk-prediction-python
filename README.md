@@ -1,21 +1,23 @@
 
-# Flood Risk Analysis by District
+# Flood Risk Prediction System
 
-This Python project analyzes rainfall and river level data to estimate flood risk for different districts.
+This project analyzes rainfall and river level data to estimate flood risk levels. 
+The system visualizes flood trends using graphs to help understand potential flood patterns.
 
-Features:
-- District-wise flood risk analysis
-- Rainfall visualization
-- River level trend graphs
+## Features
 
-Technologies:
-Python, Pandas, Matplotlib
+- Rainfall data analysis
+- Flood risk classification
+- Graph visualization using matplotlib
+- Data stored in CSV files
 
-Run:
+## Technologies Used
 
-pip install -r requirements.txt
-python src/main.py
-=======
-# flood-risk-prediction-python
-Python-based flood risk prediction system that analyzes rainfall and river level data and visualizes flood risk using graphs.
+- Python
+- Pandas
+- Matplotlib
+
+## Output
+
+![Flood Graph]
 
