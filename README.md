@@ -17,6 +17,16 @@ The system visualizes flood trends using graphs to help understand potential flo
 - Pandas
 - Matplotlib
 
+## Run the Project
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run:
+
+python src/main.py
+
 ## Output
 
 ![Rainfall According to District](output/rainfall_by_district.png)
