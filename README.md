@@ -19,5 +19,7 @@ The system visualizes flood trends using graphs to help understand potential flo
 
 ## Output
 
-![Flood Graph]
+![Rainfall According to District](output/rainfall_by_district.png)
+![River Level Trend](output//river_level_trend.png)
+
 
