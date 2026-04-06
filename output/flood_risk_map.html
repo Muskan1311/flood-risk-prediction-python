@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_67a25cbb33834616d4b443cf3a3d4ccc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_67a25cbb33834616d4b443cf3a3d4ccc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_67a25cbb33834616d4b443cf3a3d4ccc = L.map(
+                "map_67a25cbb33834616d4b443cf3a3d4ccc",
+                {
+                    center: [25.9, 86.7],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b983a749e358660777ef5e8ca1a8b5c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7b983a749e358660777ef5e8ca1a8b5c.addTo(map_67a25cbb33834616d4b443cf3a3d4ccc);
+        
+    
+            var circle_marker_fc222d75d5494b3a6a5d0ffdefa7ec24 = L.circleMarker(
+                [25.88, 86.6],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_67a25cbb33834616d4b443cf3a3d4ccc);
+        
+    
+        var popup_cab27c414e3d01f56de906a374547dd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84a6d885f8ae932c6544576e293f397b = $(`<div id="html_84a6d885f8ae932c6544576e293f397b" style="width: 100.0%; height: 100.0%;">Saharsa - Low Risk</div>`)[0];
+                popup_cab27c414e3d01f56de906a374547dd5.setContent(html_84a6d885f8ae932c6544576e293f397b);
+            
+        
+
+        circle_marker_fc222d75d5494b3a6a5d0ffdefa7ec24.bindPopup(popup_cab27c414e3d01f56de906a374547dd5)
+        ;
+
+        
+    
+    
+            var circle_marker_42371c21392e9e04c6d144ea988b037d = L.circleMarker(
+                [25.88, 86.6],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_67a25cbb33834616d4b443cf3a3d4ccc);
+        
+    
+        var popup_9877a883eb6d5cd3e259adb7e38b34c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7a2751ced49e3e041f71791be6c52ca = $(`<div id="html_c7a2751ced49e3e041f71791be6c52ca" style="width: 100.0%; height: 100.0%;">Saharsa - Moderate Risk</div>`)[0];
+                popup_9877a883eb6d5cd3e259adb7e38b34c5.setContent(html_c7a2751ced49e3e041f71791be6c52ca);
+            
+        
+
+        circle_marker_42371c21392e9e04c6d144ea988b037d.bindPopup(popup_9877a883eb6d5cd3e259adb7e38b34c5)
+        ;
+
+        
+    
+    
+            var circle_marker_636058f83a28945d04dee3448d293f8b = L.circleMarker(
+                [26.12, 86.6],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_67a25cbb33834616d4b443cf3a3d4ccc);
+        
+    
+        var popup_b665c85b81c1506213e7f90e6cc6e125 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_392bb4221a3e9a05eb3baf232e8595ae = $(`<div id="html_392bb4221a3e9a05eb3baf232e8595ae" style="width: 100.0%; height: 100.0%;">Supaul - High Risk</div>`)[0];
+                popup_b665c85b81c1506213e7f90e6cc6e125.setContent(html_392bb4221a3e9a05eb3baf232e8595ae);
+            
+        
+
+        circle_marker_636058f83a28945d04dee3448d293f8b.bindPopup(popup_b665c85b81c1506213e7f90e6cc6e125)
+        ;
+
+        
+    
+    
+            var circle_marker_f8fe4f4058b491d5520cc4abf6a09fa0 = L.circleMarker(
+                [25.92, 86.79],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_67a25cbb33834616d4b443cf3a3d4ccc);
+        
+    
+        var popup_fe667b8b72766b2f501cf1cf71e82be0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f21f4809d18607182f2ec5228ed9fdb6 = $(`<div id="html_f21f4809d18607182f2ec5228ed9fdb6" style="width: 100.0%; height: 100.0%;">Madhepura - Low Risk</div>`)[0];
+                popup_fe667b8b72766b2f501cf1cf71e82be0.setContent(html_f21f4809d18607182f2ec5228ed9fdb6);
+            
+        
+
+        circle_marker_f8fe4f4058b491d5520cc4abf6a09fa0.bindPopup(popup_fe667b8b72766b2f501cf1cf71e82be0)
+        ;
+
+        
+    
+    
+            var circle_marker_e520bbb4e65ad0ebbfd5658e29698ad5 = L.circleMarker(
+                [26.12, 86.6],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_67a25cbb33834616d4b443cf3a3d4ccc);
+        
+    
+        var popup_1c1172b4c79bc1fc0f9d074bda586765 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cc2b099d399addbb57a32f393b8803c = $(`<div id="html_8cc2b099d399addbb57a32f393b8803c" style="width: 100.0%; height: 100.0%;">Supaul - Moderate Risk</div>`)[0];
+                popup_1c1172b4c79bc1fc0f9d074bda586765.setContent(html_8cc2b099d399addbb57a32f393b8803c);
+            
+        
+
+        circle_marker_e520bbb4e65ad0ebbfd5658e29698ad5.bindPopup(popup_1c1172b4c79bc1fc0f9d074bda586765)
+        ;
+
+        
+    
+    
+            var circle_marker_def8c4cf568d3ccad3e9eeedeaa0364b = L.circleMarker(
+                [25.92, 86.79],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_67a25cbb33834616d4b443cf3a3d4ccc);
+        
+    
+        var popup_65e9e79164d9b652eb42d78ec5305096 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f9061fd784ba23fdb50412b72d5c042 = $(`<div id="html_7f9061fd784ba23fdb50412b72d5c042" style="width: 100.0%; height: 100.0%;">Madhepura - Low Risk</div>`)[0];
+                popup_65e9e79164d9b652eb42d78ec5305096.setContent(html_7f9061fd784ba23fdb50412b72d5c042);
+            
+        
+
+        circle_marker_def8c4cf568d3ccad3e9eeedeaa0364b.bindPopup(popup_65e9e79164d9b652eb42d78ec5305096)
+        ;
+
+        
+    
+    
+            var circle_marker_b9f29ebcdb0320c3cf5c9e5b43f400c7 = L.circleMarker(
+                [25.88, 86.6],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_67a25cbb33834616d4b443cf3a3d4ccc);
+        
+    
+        var popup_4ce0427ed0a84cb3679fe4b234f7c32d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f890bfbe0980afccb19296fceb7e34d = $(`<div id="html_2f890bfbe0980afccb19296fceb7e34d" style="width: 100.0%; height: 100.0%;">Saharsa - High Risk</div>`)[0];
+                popup_4ce0427ed0a84cb3679fe4b234f7c32d.setContent(html_2f890bfbe0980afccb19296fceb7e34d);
+            
+        
+
+        circle_marker_b9f29ebcdb0320c3cf5c9e5b43f400c7.bindPopup(popup_4ce0427ed0a84cb3679fe4b234f7c32d)
+        ;
+
+        
+    
+</script>
+</html>
